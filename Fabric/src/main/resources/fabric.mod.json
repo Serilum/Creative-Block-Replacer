@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "id": "creativeblockreplacer",
-  "version": "2.1",
+  "version": "2.2",
 
   "name": "Creative Block Replacer",
   "description": "Allows easy switching in between placing and replacing blocks in creative mode.",
   "authors": [ "Rick South" ],
   "contact": {
-    "homepage": "https://curseforge.com/minecraft/mc-mods/creative-block-replacer",
-    "sources": "https://github.com/ricksouth/serilum-mc-mod-sources/tree/main/sources/Creative%20Block%20Replacer",
-    "issues": "https://github.com/ricksouth/serilum-mc-mods/labels/Mod:%20Creative%20Block%20Replacer"
+    "homepage": "https://serilum.com/mod/creative-block-replacer",
+    "sources": "https://github.com/Serilum/Creative-Block-Replacer",
+    "issues": "https://github.com/Serilum/.issue-tracker/labels/Mod:%20Creative%20Block%20Replacer"
   },
 
   "license": "All Right Reserved",
@@ -23,7 +23,7 @@
     "fabric": "*",
     "minecraft": ">=1.20",
     "java": ">=17",
-    "collective": ">=7.3"
+    "collective": ">=7.21"
   },
 
   "custom": {
