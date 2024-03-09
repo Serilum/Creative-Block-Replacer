@@ -1,6 +1,6 @@
 package com.natamus.creativeblockreplacer.events;
 
-import com.natamus.collective.functions.StringFunctions;
+import com.natamus.collective.functions.MessageFunctions;
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
@@ -65,13 +65,13 @@ public class ReplaceEvent {
 				boolean isreplacing = replacingplayers.get(playername);
 				if (isreplacing) {
 					replacingplayers.put(playername, false);
-					StringFunctions.sendMessage(player, "Replacing block mode disabled.", ChatFormatting.YELLOW);
+					MessageFunctions.sendMessage(player, "Replacing block mode disabled.", ChatFormatting.YELLOW);
 					return;
 				}
 			}
 			
 			replacingplayers.put(playername, true);
-			StringFunctions.sendMessage(player, "Replacing block mode enabled", ChatFormatting.YELLOW);
+			MessageFunctions.sendMessage(player, "Replacing block mode enabled", ChatFormatting.YELLOW);
 			return;
 		}
 		sneakcurrent.remove(playername);
