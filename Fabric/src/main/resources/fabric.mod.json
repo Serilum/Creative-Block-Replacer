@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "creativeblockreplacer",
-  "version": "2.3",
+  "version": "2.4",
 
   "name": "Creative Block Replacer",
   "description": "Allows easy switching in between placing and replacing blocks in creative mode.",
@@ -23,7 +23,7 @@
     "fabric": "*",
     "minecraft": ">=1.20",
     "java": ">=17",
-    "collective": ">=7.53"
+    "collective": ">=7.54"
   },
 
   "custom": {
