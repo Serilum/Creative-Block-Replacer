@@ -1,6 +1,7 @@
 package com.natamus.creativeblockreplacer;
 
 import com.natamus.collective.check.RegisterMod;
+import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.creativeblockreplacer.neoforge.events.NeoForgeReplaceEvent;
 import com.natamus.creativeblockreplacer.util.Reference;
 import net.neoforged.neoforge.common.NeoForge;
@@ -13,6 +14,10 @@ import net.neoforged.fml.javafmlmod.FMLJavaModLoadingContext;
 public class ModNeoForge {
 	
 	public ModNeoForge(IEventBus modEventBus) {
+		if (!ShouldLoadCheck.shouldLoad(Reference.MOD_ID)) {
+			return;
+		}
+
 		modEventBus.addListener(this::loadComplete);
 
 		setGlobalConstants();
