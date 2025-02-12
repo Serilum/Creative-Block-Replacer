@@ -9,12 +9,10 @@ import net.minecraftforge.event.TickEvent.Phase;
 import net.minecraftforge.event.TickEvent.PlayerTickEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 
-@EventBusSubscriber
 public class ForgeReplaceEvent {
 	@SubscribeEvent
-	public void onPlayerTick(PlayerTickEvent e) {
+	public static void onPlayerTick(PlayerTickEvent e) {
 		Player player = e.player;
 		Level level = player.level();
 		if (level.isClientSide || !e.phase.equals(Phase.START)) {
@@ -25,7 +23,7 @@ public class ForgeReplaceEvent {
 	}
 	
 	@SubscribeEvent
-	public void onBlockClick(PlayerInteractEvent.RightClickBlock e) {
+	public static void onBlockClick(PlayerInteractEvent.RightClickBlock e) {
 		if (!ReplaceEvent.onBlockClick(e.getLevel(), e.getEntity(), e.getHand(), e.getPos(), e.getHitVec())) {
 			e.setCanceled(true);
 		}

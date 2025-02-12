@@ -8,9 +8,7 @@ import net.minecraft.world.level.Level;
 import net.neoforged.neoforge.event.tick.PlayerTickEvent;
 import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
 import net.neoforged.bus.api.SubscribeEvent;
-import net.neoforged.fml.common.EventBusSubscriber;
 
-@EventBusSubscriber
 public class NeoForgeReplaceEvent {
 	@SubscribeEvent
 	public static void onPlayerTick(PlayerTickEvent.Pre e) {
