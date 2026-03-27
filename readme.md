@@ -11,12 +11,12 @@
 <p style="text-align:center"><a href="https://serilum.com/" target="_blank" rel="nofollow"><img src="https://cdn.serilum.com/description/header/header.png" alt="" width="838" height="400"></a></p>
 <p style="text-align:center"><a href="https://curseforge.com/members/serilum/projects" target="_blank" rel="nofollow"><img src="https://workflow.serilum.com/badges/svg/curseforge.svg" width="200"></a> <a href="https://modrinth.com/user/Serilum" target="_blank" rel="nofollow"><img src="https://workflow.serilum.com/badges/svg/modrinth.svg" width="200"></a> <a href="https://patreon.com/serilum" target="_blank" rel="nofollow"><img src="https://workflow.serilum.com/badges/svg/patreon.svg" width="200"></a> <a href="https://youtube.com/@serilum" target="_blank" rel="nofollow"><img src="https://workflow.serilum.com/badges/svg/youtube.svg" width="200"></a></p>
 <p><strong><span style="font-size:24px">Requires the library mod&nbsp;<a style="font-size:24px" href="https://curseforge.com/minecraft/mc-mods/collective" target="_blank" rel="nofollow">Collective</a>.</span></strong><br><br><span style="font-size:18px">Creative Block Replacer is a&nbsp;minimalistic mod which allows easy switching in between placing and replacing blocks in creative mode, speeding up the creative process.</span><br><br><strong>To toggle in between block replacing mode:</strong><br><span style="font-size:18px"><em>Sneak three times</em> while remaining in the same position</span><br><picture><img src="https://cdn.serilum.com/projects/creative-block-replacer/a.png" alt="enabled" width="465" height="33"></picture><picture><img src="https://cdn.serilum.com/projects/creative-block-replacer/b.png" alt="disabled" width="465" height="33"></picture></p>
-<div class="spoiler">
+<details><summary>Show Spoiler</summary>
 <p><picture><img src="https://cdn.serilum.com/projects/creative-block-replacer/c.webp" alt="sneakgif" width="848" height="474"></picture></p>
-</div>
+</details>
 <p>&nbsp;</p>
 <p><strong>When replacing block mode is enabled, right-clicking a block will result in the target block being replaced with the item in hand:<br></strong></p>
-<div class="spoiler">
+<details><summary>Show Spoiler</summary>
 <p><picture><img src="https://cdn.serilum.com/projects/creative-block-replacer/e.webp" width="847" height="473"></picture></p>
-</div>
+</details>
 <p><br>------------------<br><br><span style="font-size:24px"><strong>You may freely use this mod in any modpack, as long as the download remains hosted within the CurseForge or Modrinth ecosystem.</strong></span><br><br><span style="font-size:18px"><a style="font-size:18px;color:#008000" href="https://serilum.com/" rel="nofollow">Serilum.com</a> contains an overview and more information on all mods available.</span><br><br><span style="font-size:14px">Comments are disabled as I'm unable to keep track of all the separate pages on each mod.</span><span style="font-size:14px"><br>For issues, ideas, suggestions or anything else there is the&nbsp;<a style="font-size:14px;color:#008000" href="https://github.com/Serilum/.issue-tracker" rel="nofollow">Github repo</a>. Thanks!</span><span style="font-size:6px"><br><br></span></p>
