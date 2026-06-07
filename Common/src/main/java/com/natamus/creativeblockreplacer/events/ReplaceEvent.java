@@ -65,13 +65,13 @@ public class ReplaceEvent {
 				boolean isreplacing = replacingplayers.get(playername);
 				if (isreplacing) {
 					replacingplayers.put(playername, false);
-					MessageFunctions.sendMessage(player, "Replacing block mode disabled.", ChatFormatting.YELLOW);
+					MessageFunctions.sendTranslatableMessage(player, "collective.creativeblockreplacer.message.replacingblockmodedisabled", ChatFormatting.YELLOW);
 					return;
 				}
 			}
 			
 			replacingplayers.put(playername, true);
-			MessageFunctions.sendMessage(player, "Replacing block mode enabled", ChatFormatting.YELLOW);
+			MessageFunctions.sendTranslatableMessage(player, "collective.creativeblockreplacer.message.replacingblockmodeenabled", ChatFormatting.YELLOW);
 			return;
 		}
 		sneakcurrent.remove(playername);
