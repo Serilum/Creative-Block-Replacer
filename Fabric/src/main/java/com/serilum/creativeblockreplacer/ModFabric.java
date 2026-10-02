@@ -1,11 +1,11 @@
-package com.natamus.creativeblockreplacer;
+package com.serilum.creativeblockreplacer;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.collective.fabric.callbacks.CollectiveBlockEvents;
 import com.natamus.collective.fabric.callbacks.CollectivePlayerEvents;
-import com.natamus.creativeblockreplacer.events.ReplaceEvent;
-import com.natamus.creativeblockreplacer.util.Reference;
+import com.serilum.creativeblockreplacer.events.ReplaceEvent;
+import com.serilum.creativeblockreplacer.util.Reference;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
