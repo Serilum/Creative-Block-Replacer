@@ -1,4 +1,4 @@
-package com.natamus.creativeblockreplacer.events;
+package com.serilum.creativeblockreplacer.events;
 
 import com.natamus.collective.functions.MessageFunctions;
 import net.minecraft.ChatFormatting;

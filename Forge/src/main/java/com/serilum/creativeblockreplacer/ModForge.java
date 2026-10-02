@@ -1,9 +1,9 @@
-package com.natamus.creativeblockreplacer;
+package com.serilum.creativeblockreplacer;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.creativeblockreplacer.forge.events.ForgeReplaceEvent;
-import com.natamus.creativeblockreplacer.util.Reference;
+import com.serilum.creativeblockreplacer.forge.events.ForgeReplaceEvent;
+import com.serilum.creativeblockreplacer.util.Reference;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
