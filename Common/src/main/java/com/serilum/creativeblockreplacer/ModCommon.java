@@ -1,4 +1,4 @@
-package com.natamus.creativeblockreplacer;
+package com.serilum.creativeblockreplacer;
 
 
 public class ModCommon {

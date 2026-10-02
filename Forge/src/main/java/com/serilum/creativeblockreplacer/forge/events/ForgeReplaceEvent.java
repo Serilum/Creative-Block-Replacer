@@ -1,6 +1,6 @@
-package com.natamus.creativeblockreplacer.forge.events;
+package com.serilum.creativeblockreplacer.forge.events;
 
-import com.natamus.creativeblockreplacer.events.ReplaceEvent;
+import com.serilum.creativeblockreplacer.events.ReplaceEvent;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.player.Player;
